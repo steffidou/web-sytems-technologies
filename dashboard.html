@@ -1,40 +1,67 @@
 <!DOCTYPE html>
-<html lang="sin">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      &gt;
-    />
-  </head>
-  <body>
-    <div class="grid-container">
-      <header class="header">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="static">
+    <div class="w-screen min-h-screen bg-blue-600">
+      <div class="font-mono text-[30px] text-white font-semibold ml-[50%]">
         <h1>Dashboard</h1>
-        <a href="login.html">Logout</a>
-      </header>
-      <aside class="aside">
-        <center><h1>Dashboard</h1></center>
-        <ul>
-          <li>Home</li>
-          <li>Analytics</li>
-          <li>Reports</li>
-          <li>Settings</li>
-        </ul>
-      </aside>
-      <main class="main">
-        <h1>Welcome, Dou Issa!!</h1>
-        <p>
-          Welcome to the dashboard! This is the main content area where you can
-          display various information and charts.
-        </p>
-      </main>
-      <footer class="footer">
-        <p>© 2024 Dashboard. All rights reserved.</p>
-      </footer>
+      </div>
+      <div class="ml-16 mt-0">
+        <a href="Login.html">
+          <button class="bg-red-600 text-white  w-24 h-10 text-center rounded-md flex items-center justify-center ml-56">
+            <span>Logout</span>
+            <i class="ml-2 fas fa-sign-in-alt"></i>
+          </button>
+        </a>
+      </div>
     </div>
-  </body>
+  </div>
+  
+  <div class="static">
+    <div class="absolute top-0 w-56 h-screen bg-gray-800">
+      <div>
+        <h2 class="text-[25px] text-white font-mono text-center mt-5">Dashboard</h2>
+      </div>
+          <button class="bg-gray-800 border-white text-white hover:bg-gray-500 mt-3 text-center w-56 h-8">
+            <span>Home</span>
+            <i class="ml-2 fas fa-sign-in-alt"></i>
+          </button>
+          <button class="bg-gray-800 border-white text-white hover:bg-gray-500 mt-3 mb-2 text-center w-56 h-8">
+            <span>Analytics</span>
+            <i class="ml-2 fas fa-sign-in-alt"></i>
+          </button>
+          <button class="bg-gray-800 border-white text-white hover:bg-gray-500 mt-3 mb-2 text-center w-56 h-8">
+            <span>Report</span>
+            <i class="ml-2 fas fa-sign-in-alt"></i>
+          </button>
+          <button class="bg-gray-800 border-white text-white hover:bg-gray-500 mt-3 mb-2 text-center w-56 h-8">
+            <span>Settings</span>
+            <i class="ml-2 fas fa-sign-in-alt"></i>
+          </button>
+      </div>
+  </div>
+    
+  <div class="static">
+      <div class="text-black text-center">
+        <h2 class="text-xl font-bold ml-36 mt-5">WELCOME, Dou Issa!</h2>
+        <p class="flex justify-center ml-36 mt-3">Welcome to dashboard! This is the main content area where you can display various information and charts.</p>
+    </div>
+  </div>
+    
+<div class="static">
+  <footer class="h-16 w-screen bg-gray-800 mt-[31%]">
+    <div class="p-4 bottom-0">
+      <span class="text-sm text-white sm:text-center flex justify-center items-center text-center">© 2024 Dashboard All Rights Reserved.</span>
+  </div>
+  </footer>
+</div>
+    
+  </div>
+</body>
 </html>
